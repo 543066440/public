@@ -10,5 +10,6 @@ public class test2 {
 	
 	public void set(){
 		System.out.println("GIT2");
+		System.out.println("GIT2");
 	}
 }

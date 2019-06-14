@@ -11,6 +11,5 @@ public class test {
 		System.out.println("XX");
 		System.out.println("XX");
 		System.out.println("XX");
-		System.out.println("XX");
 	}
 }
