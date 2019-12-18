@@ -1,5 +1,6 @@
 package test2;
 
+import java.sql.Date;
 import java.text.Collator;
 import java.util.Arrays;
 import java.util.Collections;
@@ -20,6 +21,16 @@ public class cpm {
 		Collections.sort(list, com);
 		for (String i : list) {
 			System.out.print(i + "  ");
+		}
+	}
+	
+	public void test(){
+		System.currentTimeMillis();
+//		String a = "陈 为隆";
+//		String b ="陈为 隆";
+		//String 
+		if("陈 为隆".trim().equals("陈为 隆".trim())){
+			System.out.println("YIY");
 		}
 	}
 }

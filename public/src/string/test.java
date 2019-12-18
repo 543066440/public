@@ -26,7 +26,12 @@ public class test {
 			System.out.println(bstr);
 		}
 	}
-
+	/**
+	 * 
+	 * @param str
+	 * @param n
+	 * @return
+	 */
 	public static int isChinese(String str,int n) {
 		int num = 0;
 		int index = 0;
@@ -35,7 +40,8 @@ public class test {
 				if (isChineseByBlock(c) || isChinesePunctuation(c)) {
 					num = num + 3;
 				} else {
-					num ++ ;
+
+
 				}
 				index++;
 			}

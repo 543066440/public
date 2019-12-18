@@ -33,4 +33,10 @@ public class Book
         System.out.println("id="+id);
         System.out.println("price="+price);
     }
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", id=" + id + ", price=" + price + "]";
+	}
+    
+    
 }

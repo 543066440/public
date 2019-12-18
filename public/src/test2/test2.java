@@ -8,8 +8,31 @@ package test2;
  */
 public class test2 {
 	
-	public void set(){
-		System.out.println("GIT2");
-		System.out.println("GIT2");
+	private String name;
+	
+	public String getName() {
+		return name;
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		if("陈为  隆".replace(" ","").equals("陈为  隆".replace(" ",""))){
+			System.out.println("YIY");
+		}
+	}
+	
+	public void set(){
+		int i = 0;
+		i++;
+		String a = "A";
+		String b = "B";
+		String c = a+ b;
+	}
+
+	public void set2(){
+	}
+	
 }

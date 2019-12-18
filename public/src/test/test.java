@@ -1,5 +1,14 @@
 package test;
 
+import java.math.BigDecimal;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+
 /**
  * <p>Title: test</p>
  * <p>Describe: TODO</p>
@@ -7,9 +16,28 @@ package test;
  * @date 2019年4月10日
  */
 public class test {
+
 	public static void main(String[] args) {
-		System.out.println("XX");
-		System.out.println("XX");
-		System.out.println("XX");
+		ArrayList<String> arrayList = new ArrayList<String>(){
+			{
+				add("SS");
+			}
+		};
+
+		Set<Integer> set = new HashSet(arrayList);
+		if(arrayList.isEmpty()){
+			System.out.println("w");
+		}
+		
+		BigDecimal value = new BigDecimal(0.1);
+		BigDecimal value2 = BigDecimal.valueOf(0.1);
+		String a ="1";
+		String b = null;
+		System.out.println(Objects.equals(a, b));
+		
+	}
+
+	public void test(){
+		
 	}
 }
