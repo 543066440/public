@@ -8,7 +8,5 @@ public class gitTets {
 		System.out.println("222");
 		System.out.println(); 
 		System.out.println("1111");
-		
-		
 	}
 }
