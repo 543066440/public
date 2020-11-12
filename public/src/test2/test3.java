@@ -16,5 +16,6 @@ public class test3 {
 		List<Object> objects = new ArrayList<>();
 		//lists = objects;
 		StringBuilder sbBuffer = new StringBuilder(123);
+		//int i = 0;
 	}
 }
