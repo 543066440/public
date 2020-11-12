@@ -54,7 +54,7 @@ public class Lambda {
 		
 	}
 	@Test
-	public void test3(){
+	public void test3() throws Exception{
 		String age1 = "test3";
 		LambdaTest lambdaTest = age -> System.out.println("age:" + age);
 		lambdaTest.test(age1);

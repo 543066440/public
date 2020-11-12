@@ -6,6 +6,7 @@ package JDK8;
  * @author wangsp
  * @date 2019年9月24日
  */
+//@FunctionalInterface
 public interface LambdaTest {
-	public void test(String age);
+	public void test(String age) throws Exception;
 }
