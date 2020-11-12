@@ -18,5 +18,6 @@ public class test3 {
 		StringBuilder sbBuffer = new StringBuilder(123);
 		//int i = 0;
 		//
+		
 	}
 }
