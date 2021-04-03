@@ -37,5 +37,6 @@ public class test {
 	public void test(){
 		System.out.println("111");
 		String b = null;
+		String c = null;
 	}
 }
