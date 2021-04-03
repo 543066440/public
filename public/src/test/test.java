@@ -38,5 +38,6 @@ public class test {
 		System.out.println("111");
 		String b = "迪w便www";
 		String c = "迪桑便";
+		String D = "我增加的";
 	}
 }
