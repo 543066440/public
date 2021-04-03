@@ -36,7 +36,8 @@ public class test {
 
 	public void test(){
 		System.out.println("111");
-		String b = "迪w便www";
+		String b = "迪ddw";
 		String c = "迪桑便";
+		String x = "ddd";
 	}
 }
