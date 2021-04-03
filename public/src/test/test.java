@@ -38,7 +38,7 @@ public class test {
 		System.out.println("111");
 		String b = "迪dDDDDWWw";
 		String c = "迪桑ww便";
-		String D = "我增DWDADWD加的";
+		String D = "我增DWDADWdwadaD加的";
 		String x = "ddwwwwDddddddDd";
 	}
 }
