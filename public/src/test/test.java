@@ -39,6 +39,6 @@ public class test {
 		String b = "迪dDDDDWWw";
 		String c = "迪桑wwwww便";
 		String D = "我增DWDADWdwadaD加的";
-		String x = "ddwwwwDddddddDd";
+		String x = "ddwwwwDddwwwwddddDd";
 	}
 }
