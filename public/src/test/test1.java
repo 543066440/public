@@ -6,6 +6,7 @@ public class test1 {
 		String  account ="1,2,3,4,45,5,";
 		  account = account.substring(0, account.length() -1);
 		System.out.println(account);
+		System.out.println(1);
 		System.out.println(account);
 		System.out.println(account);
 		System.out.println(account);
