@@ -7,6 +7,7 @@ public class test1 {
 		  account = account.substring(0, account.length() -1);
 		System.out.println(account);
 		System.out.println(account);
+		System.out.println(account);
 	}
 
 }
